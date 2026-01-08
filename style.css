@@ -4,7 +4,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+  /* Replace gradient with your background image */
+  background: url("website bg.png") no-repeat center center fixed;
+  background-size: cover;
   transition: background 2s ease;
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
