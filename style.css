@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+  transition: background 2s ease;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+}
+
+#timer {
+  font-size: 3rem;
+  color: #fff;
+  margin-top: -150px;
+}
+
+.progress-ring {
+  transform: rotate(-90deg);
+}
+
+.progress-ring__circle {
+  stroke-dasharray: 628; /* circumference of circle (2πr) */
+  stroke-dashoffset: 628;
+  transition: stroke-dashoffset 1s linear;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #333;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#streak {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.ball {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ff6b6b;
+  animation: bounce 5s infinite alternate ease-in-out;
+}
+
+@keyframes bounce {
+  0% { top: 10%; left: 10%; background: #ff6b6b; }
+  25% { top: 80%; left: 20%; background: #feca57; }
+  50% { top: 50%; left: 70%; background: #48dbfb; }
+  75% { top: 20%; left: 80%; background: #1dd1a1; }
+  100% { top: 70%; left: 40%; background: #5f27cd; }
+}
