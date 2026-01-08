@@ -4,64 +4,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
-  transition: background 2s ease;
-  overflow: hidden;
-  font-family: 'Poppins', sans-serif;
-}
 
-.container {
-  text-align: center;
-  position: relative;
-}
-
-#timer {
-  font-size: 3rem;
-  color: #fff;
-  margin-top: -150px;
-}
-
-.progress-ring {
-  transform: rotate(-90deg);
-}
-
-.progress-ring__circle {
-  stroke-dasharray: 628; /* circumference of circle (2πr) */
-  stroke-dashoffset: 628;
-  transition: stroke-dashoffset 1s linear;
-}
-
-.buttons button {
-  margin: 10px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 8px;
-  background: #fff;
-  color: #333;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-#streak {
-  margin-top: 20px;
-  font-size: 1.2rem;
-  color: #fff;
-}
-
-.ball {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  backgroundbody {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* Use your renamed background image */
-  background-image: url("bg.png");
+  /* Use your background image */
+  background-image: url("website bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
