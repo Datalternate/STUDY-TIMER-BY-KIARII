@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Vibes Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <svg class="progress-ring" width="220" height="220">
+      <circle class="progress-ring__circle" stroke="white" stroke-width="8" fill="transparent" r="100" cx="110" cy="110"/>
+    </svg>
+    <div id="timer">25:00</div>
+    <div class="buttons">
+      <button onclick="startTimer(25)">Start Study</button>
+      <button onclick="startTimer(5)">Short Break</button>
+      <button onclick="startTimer(15)">Long Break</button>
+    </div>
+    <div id="streak">🔥 Streak: 0 days</div>
+  </div>
+  <div class="ball"></div>
+  <script src="script.js"></script>
+</body>
+</html>
