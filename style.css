@@ -5,8 +5,8 @@ body {
   justify-content: center;
   align-items: center;
 
-  /* Use your background image */
-  background-image: url("website bg.png");
+  /* Use your renamed background image */
+  background-image: url("bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
