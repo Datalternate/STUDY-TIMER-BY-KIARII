@@ -4,14 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* Use your background image */
-  background-image: url("website bg.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-
+  background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
   transition: background 2s ease;
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
